@@ -11,7 +11,7 @@ body {
  justify-content: space-between;
  align-items: center;
  padding: 15px;
- text-transform: uppercase;
+ 
 }
 
 
@@ -19,6 +19,7 @@ body {
 .nav a {
     color:white;
     margin-right: 30px;
+    text-decoration: none;
    }
 
 .menu {
@@ -116,24 +117,24 @@ body {
     
     
 
-.projects{
+.Projects{
     padding: 00px 0px;
     background-color: #b47c7c;
     
 }
 
-.projects h2 {
+.Projects h2 {
     text-align: left;
     padding-left: 20px;
 
 }
 
-.projects h3 {
+.Projects h3 {
     text-align: center;
     
 }
 
-.projects img {
+.Projects img {
     padding: 0 50px;
 }
     
@@ -188,15 +189,11 @@ body {
     padding: 20px 20px;
 }
 
-.contact .container {
-    
-
-}
 
 
     
 
-.footer {
+.News {
     background-color:#33364B ;
     text-decoration:none ;
     color: #ffffff;
@@ -205,12 +202,19 @@ body {
     
     
 }
-.footer img{
+.News img{
 	margin:5px;
 }
 
-.footer h2 {
+.News .container {
     display: flex;
+    color: #ffffff;
+    
+    
+}
+
+.News .links {
+    text-decoration: none;
 }
 
 
